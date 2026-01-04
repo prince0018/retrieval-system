@@ -1,3 +1,4 @@
+# for creating the index and listing all the indices available.
 from src.es_client import get_es_client
 
 def create_index(index_name: str, body: dict):
@@ -16,7 +17,7 @@ def create_index(index_name: str, body: dict):
         "index": index_name
     }
 
-from src.es_client import get_es_client
+
 
 def list_indices():
     es = get_es_client()

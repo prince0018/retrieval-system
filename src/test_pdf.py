@@ -1,6 +1,6 @@
 from src.pdf_utils import extract_text_from_pdf
 
-pdf_path = "sample.pdf"  # put any PDF here
+pdf_path = "attention.pdf"  # put any PDF here
 
 pages = extract_text_from_pdf(pdf_path)
 
